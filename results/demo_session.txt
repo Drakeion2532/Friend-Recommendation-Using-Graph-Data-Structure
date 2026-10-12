@@ -1,0 +1,12 @@
+Loaded 10 users, 15 friendships from data/demo_network.txt
+Enter your choice: User ID: Method: 0 common-neighbours, 1 jaccard, 2 adamic-adar (default), 3 popularity: 
+Top suggestions for Abhinav (user 6) by adamic-adar:
+  #    User ID    Name                 Mutual   Score
+  1    3          Rahul                2        1.632
+  2    4          Soham                2        1.632
+  3    1          Shubhan              1        0.721
+Enter your choice: From user ID: To user ID: 5 degree(s) of separation: Abhinav -> Saif -> Shubhan -> Atharva -> Ishaan -> Namita
+Enter your choice: 
+Users: 10   Friendships: 15   Average friends: 3.00   Max friends: 4
+Connected groups: 1   Largest group: 10 users
+Enter your choice: Goodbye.

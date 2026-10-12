@@ -1,0 +1,10 @@
+name: build-and-test
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: make all
+      - run: make test
+      - run: ./evaluate data/facebook_pages_edges.csv.gz 200 10

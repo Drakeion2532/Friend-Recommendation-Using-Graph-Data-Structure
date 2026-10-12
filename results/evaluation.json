@@ -1,0 +1,11 @@
+{
+  "dataset": "data/facebook_pages_edges.csv.gz",
+  "users": 22470, "friendships": 170823,
+  "test_users": 1000, "k": 10, "hidden_fraction": 0.20, "min_degree": 10,
+  "results": [
+    {"method": "popularity", "precision_at_k": 0.0099, "recall_at_k": 0.0121, "hit_rate_at_k": 0.0780, "ms_per_query": 1.353},
+    {"method": "common-neighbours", "precision_at_k": 0.2159, "recall_at_k": 0.4232, "hit_rate_at_k": 0.8040, "ms_per_query": 0.233},
+    {"method": "jaccard", "precision_at_k": 0.1739, "recall_at_k": 0.3114, "hit_rate_at_k": 0.6410, "ms_per_query": 0.160},
+    {"method": "adamic-adar", "precision_at_k": 0.2255, "recall_at_k": 0.4438, "hit_rate_at_k": 0.8280, "ms_per_query": 0.154}
+  ]
+}

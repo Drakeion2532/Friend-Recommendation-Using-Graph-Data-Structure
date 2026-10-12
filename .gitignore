@@ -1,1 +1,5 @@
 .vscode/
+friendrec
+evaluate
+test_graph
+*.o
