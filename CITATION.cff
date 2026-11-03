@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use or adapt this work, please credit it as below and keep the copyright notice."
+title: "Friend Recommendation Engine (C11)"
+type: software
+authors:
+  - family-names: Punde
+    given-names: Shubhan
+    email: shubhanpunde@gmail.com
+repository-code: "https://github.com/Drakeion2532/Friend-Recommendation-Using-Graph-Data-Structure"
+license: MIT
+date-released: "2026-11-03"
+identifiers:
+  - type: other
+    value: "sp2532-03827fa7590d"
+    description: "Project identifier"

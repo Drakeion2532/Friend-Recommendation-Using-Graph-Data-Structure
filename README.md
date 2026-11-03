@@ -95,3 +95,9 @@ results/               evaluation.json, demo_session.txt
 - Weight suggestions by shared interests and groups (an attributed graph)
 - Personalised PageRank / random-walk recommenders for 3+ hop suggestions
 - An HTTP API wrapper so a web front end can call the C engine
+
+## Licence and credit
+
+MIT © 2026 [Shubhan Punde](https://github.com/Drakeion2532). You're welcome to learn from and reuse this code; the licence requires keeping the copyright notice, and presenting the project as your own work is not permitted. To cite it, use [CITATION.cff](CITATION.cff).
+
+<sub>Project ID: sp2532-03827fa7590d</sub>

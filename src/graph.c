@@ -1,3 +1,4 @@
+// Copyright (c) 2026 Shubhan Punde · https://github.com/Drakeion2532/Friend-Recommendation-Using-Graph-Data-Structure · MIT licence · sp2532-03827fa7590d
 #include "graph.h"
 
 #include <math.h>
