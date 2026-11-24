@@ -96,9 +96,15 @@ results/               evaluation.json, demo_session.txt
 - Personalised PageRank / random-walk recommenders for 3+ hop suggestions
 - An HTTP API wrapper so a web front end can call the C engine
 
+## Limits
+
+* The evaluation uses a Facebook page–page network as a stand-in for a friendship graph; a real social network has different structure.
+* Suggestions use graph structure only: no interests, groups or privacy settings.
+* The engine is single-machine and in-memory; graphs much larger than RAM would need a different design.
+
 ## How this was built
 
-I designed the detection logic, threat model and evaluation, and used AI pair-programming (Claude Code) for implementation. Every number in this README was re-run and checked, and the test suite reproduces the key results.
+I designed the algorithms, data structures and test cases, and used AI pair-programming (Claude Code) for implementation. Every result in this README was re-run and checked, and `make test` reproduces it.
 
 ## Licence
 
