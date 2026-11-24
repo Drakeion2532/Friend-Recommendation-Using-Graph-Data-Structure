@@ -9,7 +9,3 @@ authors:
 repository-code: "https://github.com/Drakeion2532/Friend-Recommendation-Using-Graph-Data-Structure"
 license: MIT
 date-released: "2026-11-03"
-identifiers:
-  - type: other
-    value: "sp2532-03827fa7590d"
-    description: "Project identifier"
